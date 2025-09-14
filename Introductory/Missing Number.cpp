@@ -9,7 +9,7 @@ int main() {
     int n;
     cin >> n;
     vector<int> a(n-1);
-    long long total = (1LL*n*(n+1))/2; // made mistake here
+    long long total = (1LL*n*(n+1))/2; // made mistake here should use 1LL so there will no overflow 
     long long sum = 0;
     for (auto &i : a) {
         cin >> i; 
