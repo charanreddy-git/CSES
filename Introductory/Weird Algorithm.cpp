@@ -6,7 +6,7 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    long long n; // made mistake here
+    long long n; // data type mistake int ----> long long
     cin >> n;
     
     while (n != 1) {
